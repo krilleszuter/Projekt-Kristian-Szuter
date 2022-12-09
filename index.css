@@ -241,3 +241,167 @@ transition: opacity 1s ease-in-out;
    border-radius: 15px 15px 0 15px;
    padding: 20px 15px 20px 15px;
 }
+
+/* Andra sidan */
+
+#axis_bold_as_love {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: auto auto auto;
+   gap: 10px;
+}
+
+#axis_bold_as_love .song_list :nth-of-type(1) {
+   background-color: white;
+   color: rgb(223 91 54);
+}
+
+#axis_bold_as_love .song_list :nth-of-type(2) {
+   background-color: white ;
+   color: rgb(223 91 54);
+}
+
+#axis_bold_as_love .anecdotes {
+   grid-row: 3;
+   grid-column: 1 / span 5;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: 1fr;
+}
+
+#axis_bold_as_love .bottom_left_90 {
+   grid-column: 1/span 2;
+   background-color: rgb(223 91 54);
+   border-radius: 15px 15px 15px 0;
+   color: rgb(226 226 224);
+   padding: 20px 15px 20px 15px;
+}
+
+#axis_bold_as_love .top_left_90  {
+   grid-column: 3;
+   background-color: rgb(223 91 54);
+   color: rgb(226 226 224);
+   border-radius: 0 15px 15px 15px;
+   padding: 20px 15px 20px 15px;
+   text-align: start;
+   display: flex;
+   align-items: end;
+}
+
+#axis_bold_as_love .image_1 {
+   grid-column: 4/span 2;
+   background-image: url("James_and_Suzy.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+   padding: 0;
+   border-radius: 0 15px 15px 15px;
+   display: flex;
+   align-items:flex-end;
+   justify-content: left;
+   padding: 10px;
+} 
+
+#axis_bold_as_love .bottom_right_90 {
+   grid-column: 6;
+   background-color: rgb(223 91 54);
+   color: rgb(226 226 224);
+   border-radius: 15px 15px 0 15px;
+   padding: 20px 15px 20px 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer {
+   padding: 15px;
+   font-size: 1.2vw;
+}
+
+
+
+/* Breakpoint 900px och 1111px */
+
+@media (max-width:800px) {
+   body {
+      background-image: url("800px.jpg");
+   }
+}
+
+@media (max-width:500px) {
+   body {
+      background-image: url("500px.jpg");
+   }
+}
+
+
+/* Header */ 
+@media (max-width: 900px) and (min-width: 1111px) {
+   header h1 {
+      font-size: 28px;  
+   }
+}
+
+
+/* Nav */
+@media (max-width: 900px) and (min-width: 1111px) {
+   nav div {
+      font-size: 27px;
+   }
+}
+
+/* Album_data */
+@media (max-width: 900px) and (min-width: 1111px) {
+   .album_data h1 {
+      font-size: 31px;
+   }
+   .album_data h2 {
+      font-size: 28px;
+   }
+
+   .album_data ul {
+      font-size: 17px;
+   }
+
+   .album_data p {
+      font-size: 17px;
+   }
+}
+
+/* Song_list */
+@media (max-width: 900px) and (min-width: 1111px) {
+   .song_list ul {
+      font-size: 14px;
+   }
+   .song_list h2 {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 900px) and (min-width: 1111px) {
+   .song_list #axis_bold_as_love  ul {
+      font-size: 11px;
+   }
+   .song_list #axis_bold_as_love h2 {
+      font-size: 13px;
+   }
+}
+/* Anecdotes */
+@media (max-width: 900px) and (min-width: 1111px) {
+   .anecdotes {
+      font-size: 16px;
+   }
+}
+
+   @media (max-width: 900px) and (min-width: 1111px) {
+   .anecdotes #axis_bold_as_love {
+      font-size: 16px;
+   }
+}
+
+/*Footer */
+@media (max-width: 900px) and (min-width: 1111px) {
+   footer {
+      font-size: 13px;
+   }
+}
