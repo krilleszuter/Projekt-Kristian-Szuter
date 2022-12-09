@@ -507,6 +507,191 @@ footer {
    }  
 }
 
+/* Breakpoint 500px */
+
+
+@media (max-width:500px) {
+   #are_you_experienced {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, auto);
+      gap: 10px;
+   }
+
+   header h1 {
+      font-size: 14vw;
+      padding: 15px 15px 50px 15px;
+      margin: 0;
+     }
+
+     nav div {
+      font-size: 4vw;
+     }
+
+     .cover {
+      grid-column: 1/span 4;
+      grid-row: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+   }
+
+   .cover img {
+      grid-column: 1/span 2;
+      grid-row: 1/span 2;
+   }
+
+   .song_list {
+      grid-column: 1/span 4;
+      grid-row: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 10px;
+   }
+
+   .song_list :nth-of-type(1) {
+      grid-column: 1;
+      grid-row: 1;
+      border-radius: 0 0 0 15px;
+   }
+
+   .song_list :nth-of-type(2) {
+      grid-column: 2;
+      grid-row: 1;
+      border-radius: 0 0 15px 0;
+   }
+
+   .song_list ul {
+      font-size: 4vw;
+   }
+
+   .song_list h2 {
+      font-size: 5vw;
+
+   }
+
+
+   .album_data h1 {
+      font-size: 8vw;
+      margin-top: 0;
+   }
+
+   .album_data h2 {
+      font-size: 5vw;
+   }
+
+   .album_data p {
+      font-size: 4vw;
+   }
+
+   .album_data ul {
+      font-size: 4.2vw;
+   }
+
+   .album_data {
+      grid-row:3;
+   }
+
+   .main-box {
+         margin: 0;
+      }
+
+   .show_hover:hover {
+      opacity: 0;
+   }
+
+   .show_not_hover:hover {
+      opacity: 100;
+   }
+
+
+   #are_you_experienced .anecdotes {
+      grid-row: 4;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      font-size: 3.5vw;
+   }
+
+   #are_you_experienced .top_right_90 {
+      grid-column: 1;
+      grid-row: 1;
+   }
+
+   #are_you_experienced .two_wide {
+      grid-column: 2/span 2;
+      grid-row: 1;
+   }
+
+   #are_you_experienced .image {
+      grid-column: 2;
+      grid-row: 2;
+      padding: 10px;
+   }
+
+   #are_you_experienced .bottom_right_90 {
+      grid-column: 3;
+      grid-row: 2;
+   }
+
+   /*Andra sidan */
+
+   #axis_bold_as_love {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, auto);
+   }
+
+   .cover img {
+      border-radius: 15px 15px 0 0;
+   }
+
+   #axis_bold_as_love .anecdotes {
+      font-size: 3.5vw;
+   }
+
+   #axis_bold_as_love .album_data {
+      grid-row:3;
+   }
+
+   #axis_bold_as_love .anecdotes {
+      grid-row: 4;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 5px;
+   }
+
+   #axis_bold_as_love .bottom_left_90 {
+      grid-column: 1/span 2;
+      grid-row: 1;
+   }
+
+   #axis_bold_as_love .top_left_90 {
+      grid-column: 3;
+      grid-row: 1;
+   }
+
+   #axis_bold_as_love .image_1  {
+      grid-column: 1/span 2;
+      grid-row: 2;
+      padding: 10px;
+   }
+
+   #axis_bold_as_love .bottom_right_90 {
+      grid-column: 3;
+      grid-row: 2;
+   }
+
+   footer {
+      font-size: 2.5vw;
+      padding: 20px;
+      margin: 0;
+   }
+}
+
+
 
 
 /* Breakpoint 900px och 1111px */
