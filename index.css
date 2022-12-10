@@ -15,7 +15,7 @@ body {
 }
 
 header {
-   font-size: 2.5vw;
+   font-size: 3vw;
 }
 
 header h1 {
@@ -28,20 +28,19 @@ header h1 {
 
 nav {
    display: flex;
-   justify-content: space-between;
    text-align: center;
-   align-items: center;
    margin: 0 20px 0 20px;
    gap: 5px;
    padding-bottom: 25px;
 }
 
 nav div {
-   padding: 15px;
+   padding: 10px;
    font-size: 2.4vw;
    background-color:rgba(240, 248, 255, 0.493);
-   width: 25%;
    border-radius: 10px;
+   flex-grow: 1;
+   width: 100%;
 }
 
 nav div:hover {
@@ -83,16 +82,16 @@ nav div:hover {
 
 .album_data h1 {
    font-size: 2.7vw;
-   margin: -5px 0 0 0;
+   margin: 0;
    padding: 0;
    font-family: "Bungee Shade";
    line-height: 1.2;
 }
 
 .album_data h2 {
-   font-size: 2.5vw;
-   line-height: 1.2;
-   margin-top: 0;
+   font-size: 2.4vw;
+   margin-top: 5px;
+   margin-bottom: 0;
 }
 
 .album_data ul {
@@ -106,8 +105,8 @@ nav div:hover {
 
 .album_data p {
    font-size: 1.5vw;
-   margin-bottom: 0;
-   margin-top: 41px;
+   margin: 0;
+   padding-top: 35px;
 }
 
 
@@ -133,7 +132,7 @@ opacity: 100;
 
 .show_not_hover:hover {
 opacity: 0;
-transition: opacity 1s ease-in-out;
+transition: all 1.5s ease;
 }
 
 .song_list {
@@ -164,14 +163,14 @@ transition: opacity 1s ease-in-out;
 
 .song_list h2 {
    font-size: 1.8vw;
-   margin: 20px;
-   margin-bottom:-22px;
+   margin: 15px 15px -20px 20px;
+   font-weight: lighter;
 }
 
 .song_list ul {
    padding-left: 0;
    list-style-position: inside;
-   font-size: 1.3vw;
+   font-size: 1.1vw;
    margin: 20px 0 20px 20px;
 }
 
@@ -196,7 +195,6 @@ transition: opacity 1s ease-in-out;
    background-color: rgb(252 233 70);
    border-radius: 15px 0 15px 15px;
    display: flex;
-   justify-content: center;
    align-items: center;
    padding: 20px 15px 20px 15px;
 }
@@ -212,7 +210,6 @@ transition: opacity 1s ease-in-out;
    background-color:rgb(252 233 70);
    border-radius: 15px 15px 15px 0;
    display: flex;
-   justify-content: center;
    align-items: center;
    padding: 20px 15px 20px 15px;
 }
@@ -226,7 +223,6 @@ transition: opacity 1s ease-in-out;
    background-position: center;
    border-radius: 0 15px 15px 15px;
    padding: 5px;
-   text-align: start;
    display: flex;
    align-items: end;
 }
@@ -236,7 +232,6 @@ transition: opacity 1s ease-in-out;
    grid-row: 1;
    background-color: rgb(252 233 70);
    display: flex;
-   justify-content: center;
    align-items: center;
    border-radius: 15px 15px 0 15px;
    padding: 20px 15px 20px 15px;
@@ -261,12 +256,8 @@ transition: opacity 1s ease-in-out;
    color: rgb(223 91 54);
 }
 
-#axis_bold_as_love .anecdotes {
-   grid-row: 3;
-   grid-column: 1 / span 5;
-   display: grid;
-   grid-template-columns: repeat(6,1fr);
-   grid-template-rows: 1fr;
+#axis_bold_as_love .album_data p {
+   padding-top: 43px;
 }
 
 #axis_bold_as_love .bottom_left_90 {
@@ -274,7 +265,6 @@ transition: opacity 1s ease-in-out;
    background-color: rgb(223 91 54);
    border-radius: 15px 15px 15px 0;
    color: rgb(226 226 224);
-   padding: 20px 15px 20px 15px;
 }
 
 #axis_bold_as_love .top_left_90  {
@@ -283,9 +273,6 @@ transition: opacity 1s ease-in-out;
    color: rgb(226 226 224);
    border-radius: 0 15px 15px 15px;
    padding: 20px 15px 20px 15px;
-   text-align: start;
-   display: flex;
-   align-items: end;
 }
 
 #axis_bold_as_love .image_1 {
@@ -293,12 +280,9 @@ transition: opacity 1s ease-in-out;
    background-image: url("James_and_Suzy.webp");
    background-size: cover;
    background-repeat: no-repeat;
-   
-   padding: 0;
    border-radius: 0 15px 15px 15px;
    display: flex;
    align-items:flex-end;
-   justify-content: left;
    padding: 10px;
 } 
 
@@ -307,10 +291,6 @@ transition: opacity 1s ease-in-out;
    background-color: rgb(223 91 54);
    color: rgb(226 226 224);
    border-radius: 15px 15px 0 15px;
-   padding: 20px 15px 20px 15px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
 footer {
@@ -334,7 +314,7 @@ footer {
    }
    
    nav div {
-      font-size: 4vw;
+      font-size: 3vw;
      }
 
    .cover {
@@ -362,7 +342,7 @@ footer {
    }
 
    .song_list h2 {
-      font-size: 3vw;
+      font-size: 3.5vw;
       padding: 15px 15px 0 15px;
    }
 
@@ -395,19 +375,15 @@ footer {
       font-size: 5vw;
       line-height: 1.1;
       grid-row: 1;
-      margin: 0;
    }
 
    .album_data h2 {
       font-size: 3.5vw;
       line-height: 1.5;
-      margin: 0;
    }
 
    .album_data p {
       font-size: 2.5vw;
-      margin: 0;
-      padding: 0;
    }
 
    .album_data ul {
@@ -417,7 +393,6 @@ footer {
    .album_data :nth-of-type(1) {
       grid-row: 1;
       grid-column: 1/span 5;
-      
    }
 
    .album_data :nth-of-type(2) {
@@ -428,8 +403,6 @@ footer {
    .album_description {
       grid-column: 1/span 5;
       grid-row: 3;
-      padding: 0;
-      margin: 0;
    }
 
    .anecdotes {
@@ -439,31 +412,29 @@ footer {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(2, auto);
       font-size: 2.1vw;
-      gap: 5px;
    }
 
    #are_you_experienced .top_right_90 {
       grid-column: 1;
       grid-row: 1;
-      padding: 20px 5px 20px 10px;
+      padding: 10px;
    }
 
    #are_you_experienced .two_wide {
       grid-column: 3/span 2;
       grid-row: 1;
-      padding: 20px 10px 20px 10px;
+      padding: 10px;
    }
 
    #are_you_experienced .image {
       grid-column: 2;
       grid-row: 2;
-      
    }
 
    #are_you_experienced .bottom_right_90 {
       grid-column: 3;
       grid-row: 2;
-      padding: 20px 10px 20px 10px;
+      padding: 10px;
    }
 
    #axis_bold_as_love .anecdotes {
@@ -472,33 +443,30 @@ footer {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(2, auto);
-      font-size: 2vw;
-      
+      font-size: 2.1vw;
    }
    
    #axis_bold_as_love .two_wide {
       grid-column: 1/span 2;
       grid-row: 1;
-      padding: 20px 10px 20px 10px;
-      
+      padding: 10px;
    }
    
    #axis_bold_as_love .top_left_90 {
       grid-column: 3;
       grid-row: 1;
-      padding: 20px 10px 20px 10px;
+      padding: 10px;
    }
    
    #axis_bold_as_love .image_1 {
       grid-column: 2/span 2;
       grid-row: 2;
-      padding: 20px 10px 20px 10px;
    }
    
    #axis_bold_as_love .bottom_right_90 {
       grid-column: 4;
       grid-row: 2;
-      padding: 20px 10px 20px 10px;
+      padding: 10px;
    }
 
    footer {
@@ -515,7 +483,6 @@ footer {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(4, auto);
-      gap: 10px;
    }
 
    header h1 {
@@ -525,7 +492,7 @@ footer {
      }
 
      nav div {
-      font-size: 4vw;
+      font-size:3vw;
      }
 
      .cover {
@@ -547,7 +514,6 @@ footer {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
-      gap: 10px;
    }
 
    .song_list :nth-of-type(1) {
@@ -563,18 +529,15 @@ footer {
    }
 
    .song_list ul {
-      font-size: 4vw;
+      font-size: 3.5vw;
    }
 
    .song_list h2 {
       font-size: 5vw;
-
    }
-
 
    .album_data h1 {
       font-size: 8vw;
-      margin-top: 0;
    }
 
    .album_data h2 {
@@ -712,7 +675,7 @@ footer {
 /* Header */ 
 @media (max-width: 900px) and (min-width: 1111px) {
    header h1 {
-      font-size: 28px;  
+      font-size: 33px;  
    }
 }
 
@@ -727,25 +690,25 @@ footer {
 /* Album_data */
 @media (max-width: 900px) and (min-width: 1111px) {
    .album_data h1 {
-      font-size: 31px;
+      font-size: 30px;
    }
    .album_data h2 {
-      font-size: 28px;
+      font-size: 26px;
    }
 
    .album_data ul {
-      font-size: 17px;
+      font-size: 16.5px;
    }
 
    .album_data p {
-      font-size: 17px;
+      font-size: 16.5px;
    }
 }
 
 /* Song_list */
 @media (max-width: 900px) and (min-width: 1111px) {
    .song_list ul {
-      font-size: 14px;
+      font-size: 12px;
    }
    .song_list h2 {
       font-size: 20px;
@@ -754,22 +717,22 @@ footer {
 
 @media (max-width: 900px) and (min-width: 1111px) {
    .song_list #axis_bold_as_love  ul {
-      font-size: 11px;
+      font-size: 12px;
    }
    .song_list #axis_bold_as_love h2 {
-      font-size: 13px;
+      font-size: 20px;
    }
 }
 /* Anecdotes */
 @media (max-width: 900px) and (min-width: 1111px) {
    .anecdotes {
-      font-size: 16px;
+      font-size: 15.5px;
    }
 }
 
    @media (max-width: 900px) and (min-width: 1111px) {
    .anecdotes #axis_bold_as_love {
-      font-size: 16px;
+      font-size: 15.5px;
    }
 }
 
