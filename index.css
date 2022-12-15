@@ -1,8 +1,8 @@
 body {
    margin: 0;
    background-image: url("back_one.jpg");
-   background-attachment: fixed;
-   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   background-repeat: no-repeat; 
    background-size: cover;
    background-position: center;
    color: whitesmoke;
@@ -22,7 +22,7 @@ header h1 {
    padding-left: 20px;
    padding-top: 20px;
    font-family: "Bungee Shade";
-   line-height: 1;
+   line-height: 1; 
    padding-bottom: 45px;
 }
 
@@ -39,8 +39,8 @@ nav div {
    font-size: 2.4vw;
    background-color:rgba(240, 248, 255, 0.493);
    border-radius: 10px;
-   flex-grow: 1;
-   width: 100%;
+   flex-grow: 1; 
+   width: 100%; 
 }
 
 nav div:hover {
@@ -55,7 +55,7 @@ nav div:hover {
 
 .marked {
    border: 2px solid white;
-   box-shadow: 0 0 15px #9ecaed;
+   box-shadow: 0 0 15px #9ecaed; 
    font-weight: bold;
 }
 
@@ -71,21 +71,20 @@ nav div:hover {
 #are_you_experienced {
    display: grid;
    grid-template-columns: repeat(5, 1fr);
-   grid-template-rows: auto auto auto;
    gap: 10px;
 }
 
 .album_data {
    grid-column: 1/span 3;
-   grid-row: 1/span 2;
+   grid-row: 1/span 2; 
 }
 
 .album_data h1 {
    font-size: 2.7vw;
    margin: 0;
-   padding: 0;
+   padding: 0; 
    font-family: "Bungee Shade";
-   line-height: 1.2;
+   line-height: 1.2; 
 }
 
 .album_data h2 {
@@ -94,8 +93,8 @@ nav div:hover {
    margin-bottom: 0;
 }
 
-.album_data ul {
-   margin: 0;
+.album_data ul { 
+   margin: 0; 
    font-size: 1.5vw;
 }
 .album_data li {
@@ -105,28 +104,28 @@ nav div:hover {
 
 .album_data p {
    font-size: 1.5vw;
-   margin: 0;
-   padding-top: 35px;
+   margin: 0; 
+   padding-top: 35px; 
 }
 
 
 .cover {
    grid-column: 4/ span 2;
-   grid-row: 1;
+   grid-row: 1; 
    display: grid;
    grid-template-columns: 1fr;
 }
 
 .cover img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+width: 100%; 
+height: 100%; 
+object-fit: cover; 
 grid-column: 1;
-grid-row: 1;
+grid-row: 1; 
 border-radius: 15px 15px 0 0;
 }
 
-.show_hover:hover {
+.show_hover:hover { 
 opacity: 100;
 }
 
@@ -140,19 +139,18 @@ transition: all 1.5s ease;
    grid-column: 1/span 5;
    display: grid;
    grid-template-columns: repeat(5, 1fr);
-   grid-template-rows: auto;
    color: rgb(252 233 70);
    column-gap: 10px;
 }
 
 
-.song_list :nth-of-type(1) {
+.song_list :nth-of-type(1) { 
    grid-column: 4;
    background-color: rgb(30 72 152);
    border-radius: 0 0  0 20px;
 }
 
-.song_list :nth-of-type(2) {
+.song_list :nth-of-type(2) { 
    background-color: rgb(30 72 152);
    border-radius: 0 0 20px 0;
 }
@@ -163,15 +161,15 @@ transition: all 1.5s ease;
 
 .song_list h2 {
    font-size: 1.8vw;
-   margin: 15px 15px -20px 20px;
+   margin: 15px 15px -20px 20px; 
    font-weight: lighter;
 }
 
 .song_list ul {
-   padding-left: 0;
-   list-style-position: inside;
+   padding-left: 0; 
+   list-style-position: inside; 
    font-size: 1.1vw;
-   margin: 20px 0 20px 20px;
+   margin: 20px 0 20px 20px; 
 }
 
 .anecdotes {
@@ -180,8 +178,8 @@ transition: all 1.5s ease;
       display: grid;
       grid-template-columns: repeat(6,1fr);
       grid-template-rows: 1fr;
-      list-style: none;
-      padding: 0;
+      list-style: none; 
+      padding: 0; 
       font-size: 1.4vw;
       gap: 6px;
       color:rgb(30 72 152);
@@ -199,7 +197,7 @@ transition: all 1.5s ease;
    padding: 20px 15px 20px 15px;
 }
 
-.empty {
+.empty { 
    grid-column: 2;
    grid-row: 1;
 }
@@ -219,12 +217,12 @@ transition: all 1.5s ease;
    grid-column: 5;
    background-image: url("Martin-Scorsese.jpg");
    background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+   background-repeat: no-repeat; 
+   background-position: center; 
    border-radius: 0 15px 15px 15px;
    padding: 5px;
    display: flex;
-   align-items: end;
+   align-items: end; 
 }
 
 .bottom_right_90 {
@@ -242,11 +240,10 @@ transition: all 1.5s ease;
 #axis_bold_as_love {
    display: grid;
    grid-template-columns: repeat(5, 1fr);
-   grid-template-rows: auto auto auto;
    gap: 10px;
 }
 
-#axis_bold_as_love .song_list :nth-of-type(1) {
+#axis_bold_as_love .song_list :nth-of-type(1) { 
    background-color: white;
    color: rgb(223 91 54);
 }
@@ -257,7 +254,7 @@ transition: all 1.5s ease;
 }
 
 #axis_bold_as_love .album_data p {
-   padding-top: 43px;
+   padding-top: 43px; 
 }
 
 #axis_bold_as_love .bottom_left_90 {
@@ -279,10 +276,10 @@ transition: all 1.5s ease;
    grid-column: 4/span 2;
    background-image: url("James_and_Suzy.jpg");
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; 
    border-radius: 0 15px 15px 15px;
-   display: flex;
-   align-items:flex-end;
+   display: flex; 
+   align-items:end; 
    padding: 10px;
 } 
 
@@ -301,16 +298,15 @@ footer {
 /* Breakpoint 800*/
 
 @media (max-width:800px) {
-   #are_you_experienced {
+   #are_you_experienced { 
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: auto auto auto;
    }
 
    header {
       text-align: center;
       font-size: 5vw;
-      line-height: 1.3;
+      line-height: 1.3;  
    }
    
    nav div {
@@ -318,9 +314,9 @@ footer {
      }
 
    .cover {
-     grid-column: 1/span 3;
-     grid-row: 1;
-     margin: 0;
+     grid-column: 1/span 3; 
+     grid-row: 1; 
+     margin: 0; 
    }
 
    .cover img {
@@ -329,10 +325,10 @@ footer {
    }
 
    .song_list {
-      grid-column: 1/span 5;
+      grid-column: 1/span 5; 
       grid-row: 1;
-      display: grid;
-      grid-template-rows: 1fr 1fr;
+      display: grid; 
+      grid-template-rows: 1fr 1fr; 
       gap: 10px;
    }
 
@@ -351,35 +347,35 @@ footer {
       grid-column: 4/span 2;
       grid-row: 1;
       border-radius: 0 15px 0 0;
-      margin: 0;
+      margin: 0; 
    }
 
    .song_list :nth-of-type(2) {
       grid-column: 4/span 2;
       grid-row: 2;
       border-radius: 0 0 15px 0;
-      margin: 0;
+      margin: 0; 
    }
+   
 
    .album_data {
       grid-row: 2;
       grid-column: 1/span 5;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto auto;
-      row-gap: 80px;
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr; 
+      row-gap: 40px;
    }
 
    .album_data h1 {
-      margin-top: 1px;
+      margin-top: 1px; 
       font-size: 5vw;
-      line-height: 1.1;
+      line-height: 1.1; 
       grid-row: 1;
    }
 
    .album_data h2 {
       font-size: 3.5vw;
-      line-height: 1.5;
+      line-height: 1.5; 
    }
 
    .album_data p {
@@ -391,26 +387,22 @@ footer {
    }
 
    .album_data :nth-of-type(1) {
-      grid-row: 1;
       grid-column: 1/span 5;
    }
 
    .album_data :nth-of-type(2) {
       grid-column: 1/span 5;
-      grid-row: 2;
    }
 
    .album_description {
       grid-column: 1/span 5;
-      grid-row: 3;
    }
 
    .anecdotes {
-      grid-row: 3;
-      grid-column: 1/span 5;
+      grid-row: 3; 
+      grid-column: 1/span 5; 
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, auto);
       font-size: 2.1vw;
    }
 
@@ -440,9 +432,8 @@ footer {
    #axis_bold_as_love .anecdotes {
       grid-row: 3;
       grid-column: 1/span 5;
-      display: grid;
+      display: grid;  
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, auto);
       font-size: 2.1vw;
    }
    
@@ -482,13 +473,12 @@ footer {
    #are_you_experienced {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(4, auto);
    }
 
    header h1 {
       font-size: 14vw;
-      padding: 15px 15px 50px 15px;
-      margin: 0;
+      padding: 15px 15px 50px 15px; 
+      margin: 0; 
      }
 
      nav div {
@@ -497,21 +487,21 @@ footer {
 
      .cover {
       grid-column: 1/span 4;
-      grid-row: 1;
+      grid-row: 1; 
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr; 
    }
 
-   .cover img {
-      grid-column: 1/span 2;
+   .cover img { 
+      grid-column: 1/span 2; 
       grid-row: 1/span 2;
    }
 
    .song_list {
       grid-column: 1/span 4;
       grid-row: 2;
-      display: grid;
+      display: grid; 
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
    }
@@ -523,7 +513,7 @@ footer {
    }
 
    .song_list :nth-of-type(2) {
-      grid-column: 2;
+      grid-column: 2; 
       grid-row: 1;
       border-radius: 0 0 15px 0;
    }
@@ -560,11 +550,11 @@ footer {
          margin: 0;
       }
 
-   .show_hover:hover {
+   .show_hover:hover { 
       opacity: 0;
    }
 
-   .show_not_hover:hover {
+   .show_not_hover:hover { 
       opacity: 100;
    }
 
@@ -573,7 +563,6 @@ footer {
       grid-row: 4;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto;
       font-size: 3.5vw;
    }
 
@@ -603,7 +592,6 @@ footer {
    #axis_bold_as_love {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: repeat(4, auto);
    }
 
    .cover img {
@@ -622,7 +610,6 @@ footer {
       grid-row: 4;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto;
       gap: 5px;
    }
 
@@ -649,8 +636,8 @@ footer {
 
    footer {
       font-size: 2.5vw;
-      padding: 20px;
-      margin: 0;
+      padding: 20px; 
+      margin: 0; 
    }
 }
 
